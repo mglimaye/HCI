@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="ui-camp-gallery">
+      <h1>Welcome to Molly's bakery</h1>
+      <p>See my baking creations below!</p>
+
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div id= "gallery" class="gallery-container">
+        <img class="gallery-item" src="./assets/Headshot.jpeg" alt="molly head" />
+        <img class="gallery-item" src="./assets/raspberry.jpg" alt="raspberry cookies" />
+        <img class="gallery-item" src="./assets/matcha.jpg" alt="matcha cookies" />
+        <img class="gallery-item" src="./assets/matcha2.jpg" alt="more matcha cookies" />
+        <img class="gallery-item" src="./assets/chocolate.jpg" alt="chocolate cookies" />
+        <img class="gallery-item" src="./assets/raspberry2.jpg" alt="more raspberry cookies" />
+        <button id = "my-button" onclick="updatePage()">Press this button to see how many grams of sugar are in the raspberries for the raspberry cookies</button>
+        <p>Grams of sugar in a raspberry:</p>
+      </div>
+
+      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+    </div>
+  </body>
+</html>
